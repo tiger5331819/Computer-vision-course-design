@@ -18,8 +18,8 @@ opencv：4.1
 >>>代码样例：  
 >>>- 头文件  
 >>>```c++
->>>#ifndef TEXT
->>>#define TEXT
+>>>#ifndef _TEXT_H
+>>>#define _TEXT_H
 >>>#include.....
 >>>
 >>>class test
