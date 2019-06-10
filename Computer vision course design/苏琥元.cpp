@@ -62,8 +62,8 @@ void suhuyuan::work()
 	{ 
 		point[i] = Contours[flag][i];
 	}
-	hight = findX(point,size);
-	weight = findY(point, size);
+	 weight= findX(point,size);
+	 hight= findY(point, size);
 
 	imshow("test", drawing);
 }
