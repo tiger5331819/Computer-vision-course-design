@@ -13,15 +13,41 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="项目成员文件夹">
+      <UniqueIdentifier>{43de2cc3-8949-484e-b9f2-0db374d32132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="项目成员文件夹\苏琥元">
+      <UniqueIdentifier>{b3808ed6-7e98-44d9-abd9-73b88135900f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Computer vision course design.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="苏琥元.cpp">
+      <Filter>项目成员文件夹\苏琥元</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Head.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ConnectList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="苏琥元.h">
+      <Filter>项目成员文件夹\苏琥元</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="计算机视觉课程设计.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

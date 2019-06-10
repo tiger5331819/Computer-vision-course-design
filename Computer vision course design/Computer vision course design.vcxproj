@@ -75,8 +75,6 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\opencv\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -113,7 +111,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opencv_world410d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -156,9 +154,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Computer vision course design.cpp" />
+    <ClCompile Include="苏琥元.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ConnectList.h" />
     <ClInclude Include="Head.h" />
+    <ClInclude Include="苏琥元.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.jpg" />
+    <Image Include="2.jpg" />
+    <Image Include="计算机视觉课程设计.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
