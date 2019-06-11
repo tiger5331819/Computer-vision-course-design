@@ -4,10 +4,11 @@ using namespace std;
 using namespace cv;
 int main()
 {
+	//读入图像
 	Mat image = imread("1.jpg");
-	suhuyuan su(image.clone());
-	su.work();
-	su.showresult();
+	suhuyuan su(image.clone());//将图像克隆传入
+	su.work();//代码工作
+	su.showresult();//输出结果
 	waitKey(0);
 }
 
