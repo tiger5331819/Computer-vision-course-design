@@ -9,6 +9,9 @@ int main()
 	suhuyuan su(image.clone());//将图像克隆传入
 	su.work();//代码工作
 	su.showresult();//输出结果
+	gaoya ya(image.clone());
+	ya.work();
+	ya.show();
 	waitKey(0);
 }
 

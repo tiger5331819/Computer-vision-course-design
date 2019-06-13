@@ -19,6 +19,9 @@
     <Filter Include="项目成员文件夹\苏琥元">
       <UniqueIdentifier>{b3808ed6-7e98-44d9-abd9-73b88135900f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="项目成员文件夹\高雅">
+      <UniqueIdentifier>{99cc06da-0e26-4e87-bb4c-242f9f9b1340}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Computer vision course design.cpp">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="苏琥元.cpp">
       <Filter>项目成员文件夹\苏琥元</Filter>
+    </ClCompile>
+    <ClCompile Include="高雅.cpp">
+      <Filter>项目成员文件夹\高雅</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="苏琥元.h">
       <Filter>项目成员文件夹\苏琥元</Filter>
+    </ClInclude>
+    <ClInclude Include="高雅.h">
+      <Filter>项目成员文件夹\高雅</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
