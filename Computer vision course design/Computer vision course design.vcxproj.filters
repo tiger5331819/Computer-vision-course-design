@@ -31,6 +31,15 @@
     <Filter Include="项目成员文件夹\孙文科">
       <UniqueIdentifier>{21a10a95-aade-41b9-8e53-70761a7b97f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="项目成员文件夹\温奇凡">
+      <UniqueIdentifier>{d6319e72-8418-40e7-8927-a449fb49925d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="项目成员文件夹\张淇">
+      <UniqueIdentifier>{ba7cce7e-dcea-4aa2-8ef6-818986ac4afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="项目成员文件夹\闫彩东">
+      <UniqueIdentifier>{1495061c-fc09-4824-9e93-8a1d4562594f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Computer vision course design.cpp">
@@ -50,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="孙文科.cpp">
       <Filter>项目成员文件夹\孙文科</Filter>
+    </ClCompile>
+    <ClCompile Include="张淇.cpp">
+      <Filter>项目成员文件夹\张淇</Filter>
+    </ClCompile>
+    <ClCompile Include="闫彩东.cpp">
+      <Filter>项目成员文件夹\闫彩东</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +88,12 @@
     </ClInclude>
     <ClInclude Include="孙文科.h">
       <Filter>项目成员文件夹\孙文科</Filter>
+    </ClInclude>
+    <ClInclude Include="张淇.h">
+      <Filter>项目成员文件夹\张淇</Filter>
+    </ClInclude>
+    <ClInclude Include="闫彩东.h">
+      <Filter>项目成员文件夹\闫彩东</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

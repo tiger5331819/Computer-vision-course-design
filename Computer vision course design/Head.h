@@ -4,6 +4,9 @@
 #define _HEAD_H_
 #include <iostream>
 #include<algorithm>
+#include<vector>
+#include<math.h>
+#include<cassert>
 #include <opencv2/opencv.hpp>
 #include<opencv2/highgui/highgui.hpp>
 #include<opencv2/imgproc/imgproc.hpp>

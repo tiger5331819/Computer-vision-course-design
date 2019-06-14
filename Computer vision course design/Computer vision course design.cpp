@@ -9,13 +9,19 @@ int main()
 	Mat dst;
 	sunwenke sun(image.clone());//大拇指
 	sun.work();
-	sun.showresult();
+	sun.showresult();	
+	yancaidong caidong(image.clone());//食指
+	caidong.work();
+	caidong.showresult();
 	suhuyuan su(image.clone());//中指
 	su.work();
 	su.showresult();
 	zhouzongyu zhou(image.clone());//无名指
 	zhou.work();
 	zhou.showresult();
+	zhangqi zq(image.clone());//小拇指
+	zq.work();
+	zq.showresult();
 	zhangyanxi zhang(image.clone());//手掌
 	zhang.worker();
 	zhang.Print();
