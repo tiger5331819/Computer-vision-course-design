@@ -1,13 +1,13 @@
 #include "苏琥元.h"
 //降序排序
-bool Compare(int a, int b)
+static bool Compare(int a, int b)
 {
 	return a > b;
 }
 //寻找x轴上的像素点的x坐标并计算出宽
 //[param in]Point *p：像素点数组
 //[param in]size ：像素点个数
-int findX(Point* p,int size)
+static int findX(Point* p,int size)
 {
 	int x[3000];
 	int min;
@@ -26,7 +26,7 @@ int findX(Point* p,int size)
 //寻找y轴上的像素点的y坐标并计算出高
 //[param in]Point *p：像素点数组
 //[param in]size ：像素点个数
-int findY(Point* p, int size)
+static int findY(Point* p, int size)
 {
 	int x[3000];
 	int min;
@@ -54,12 +54,12 @@ void suhuyuan::work()
 	vector<vector<Point>> Contours;//边缘坐标集合
 	vector<Vec4i> Hierarchy;
 	findContours(final, Contours, Hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0, 0));
-	Mat drawing = Mat::zeros(final.size(), CV_8UC3);
-	for (int i = 0; i < Contours.size(); i++)
-	{
-		Scalar color = Scalar(255,255,255);//任意值
-		drawContours(drawing, Contours, 2, color, 3, 8, Hierarchy, 0, Point());//画出边缘
-	}
+	//Mat drawing = Mat::zeros(final.size(), CV_8UC3);
+	//for (int i = 0; i < Contours.size(); i++)
+	//{
+	//	Scalar color = Scalar(255,255,255);//任意值
+	//	drawContours(drawing, Contours, 2, color, 3, 8, Hierarchy, 0, Point());//画出边缘
+	//}
 
 	int flag=0;
 	for (int i = 0; i < Contours.size(); i++)
@@ -73,7 +73,5 @@ void suhuyuan::work()
 	//像素点处理
 	 weight= findX(point,size);
 	 hight= findY(point, size);
-
-	imshow("test", drawing);
 }
 

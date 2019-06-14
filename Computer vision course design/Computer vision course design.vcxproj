@@ -221,12 +221,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Computer vision course design.cpp" />
+    <ClCompile Include="周宗宇.cpp" />
+    <ClCompile Include="孙文科.cpp" />
+    <ClCompile Include="张衍希.cpp" />
     <ClCompile Include="苏琥元.cpp" />
     <ClCompile Include="高雅.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConnectList.h" />
     <ClInclude Include="Head.h" />
+    <ClInclude Include="周宗宇.h" />
+    <ClInclude Include="孙文科.h" />
+    <ClInclude Include="张衍希.h" />
     <ClInclude Include="苏琥元.h" />
     <ClInclude Include="高雅.h" />
   </ItemGroup>

@@ -22,6 +22,15 @@
     <Filter Include="项目成员文件夹\高雅">
       <UniqueIdentifier>{99cc06da-0e26-4e87-bb4c-242f9f9b1340}</UniqueIdentifier>
     </Filter>
+    <Filter Include="项目成员文件夹\周宗宇">
+      <UniqueIdentifier>{6d4fc72b-808e-4c4b-a565-796bf3e7219a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="项目成员文件夹\张衍希">
+      <UniqueIdentifier>{c926cdc1-ce36-4f88-bddf-ae21ea715836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="项目成员文件夹\孙文科">
+      <UniqueIdentifier>{21a10a95-aade-41b9-8e53-70761a7b97f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Computer vision course design.cpp">
@@ -32,6 +41,15 @@
     </ClCompile>
     <ClCompile Include="高雅.cpp">
       <Filter>项目成员文件夹\高雅</Filter>
+    </ClCompile>
+    <ClCompile Include="周宗宇.cpp">
+      <Filter>项目成员文件夹\周宗宇</Filter>
+    </ClCompile>
+    <ClCompile Include="张衍希.cpp">
+      <Filter>项目成员文件夹\张衍希</Filter>
+    </ClCompile>
+    <ClCompile Include="孙文科.cpp">
+      <Filter>项目成员文件夹\孙文科</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -46,6 +64,15 @@
     </ClInclude>
     <ClInclude Include="高雅.h">
       <Filter>项目成员文件夹\高雅</Filter>
+    </ClInclude>
+    <ClInclude Include="周宗宇.h">
+      <Filter>项目成员文件夹\周宗宇</Filter>
+    </ClInclude>
+    <ClInclude Include="张衍希.h">
+      <Filter>项目成员文件夹\张衍希</Filter>
+    </ClInclude>
+    <ClInclude Include="孙文科.h">
+      <Filter>项目成员文件夹\孙文科</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
