@@ -66,6 +66,9 @@
     <ClCompile Include="闫彩东.cpp">
       <Filter>项目成员文件夹\闫彩东</Filter>
     </ClCompile>
+    <ClCompile Include="温奇凡.cpp">
+      <Filter>项目成员文件夹\温奇凡</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Head.h">
@@ -94,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="闫彩东.h">
       <Filter>项目成员文件夹\闫彩东</Filter>
+    </ClInclude>
+    <ClInclude Include="温奇凡.h">
+      <Filter>项目成员文件夹\温奇凡</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

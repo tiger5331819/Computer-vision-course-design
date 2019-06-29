@@ -22,6 +22,9 @@ int main()
 	zhangqi zq(image.clone());//小拇指
 	zq.work();
 	zq.showresult();
+	wenqifan wen(image.clone());
+	wen.work();
+	wen.showresult();
 	zhangyanxi zhang(image.clone());//手掌
 	zhang.worker();
 	zhang.Print();

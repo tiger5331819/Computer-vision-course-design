@@ -225,6 +225,7 @@
     <ClCompile Include="孙文科.cpp" />
     <ClCompile Include="张淇.cpp" />
     <ClCompile Include="张衍希.cpp" />
+    <ClCompile Include="温奇凡.cpp" />
     <ClCompile Include="苏琥元.cpp" />
     <ClCompile Include="闫彩东.cpp" />
     <ClCompile Include="高雅.cpp" />
@@ -236,6 +237,7 @@
     <ClInclude Include="孙文科.h" />
     <ClInclude Include="张淇.h" />
     <ClInclude Include="张衍希.h" />
+    <ClInclude Include="温奇凡.h" />
     <ClInclude Include="苏琥元.h" />
     <ClInclude Include="闫彩东.h" />
     <ClInclude Include="高雅.h" />
