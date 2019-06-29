@@ -12,7 +12,7 @@ class zhangqi
 public:
 	zhangqi(Mat img)
 	{
-		image = img(Rect( 385, 303, 90, 313));
+		image = img(Rect( 20, 110, 83, 320));
 		h = 0;
 		w = 0;
 	}

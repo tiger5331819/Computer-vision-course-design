@@ -63,5 +63,4 @@ void zhangqi::work()
 	}
 	w = findX(point, size);
 	h = findY(point, size);
-	imshow("zhangqi", final);
 }

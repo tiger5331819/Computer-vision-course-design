@@ -52,7 +52,7 @@ void zhouzongyu::work()
 	for (int i = 0; i < Contours.size(); i++)
 	{
 		Scalar color = Scalar(255, 255, 255);
-		drawContours(drawing, Contours, 2, color, 3, 8, Hierarchy, 0, Point());
+		drawContours(drawing, Contours, i, color, 3, 8, Hierarchy, 0, Point());
 	}
 
 	int flag = 0;
